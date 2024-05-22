@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>testing beta</title>
+    </head>
+    <body>
+        <form>
+            <!-- input untuk textfield -->
+            <label for="username">username :</label>
+            <input type="text" id="username">
+            <br>
+            <label for="password">password :</label>
+            <input type="password" id="password">
+            <!-- input untuk radio -->
+            <br>
+            <label for="pria">pria</label>
+            <input type="radio" id="pria" name="Jenis kelamin">
+            <label for="wanit">wanita</label>
+            <input type="radio" id="wanita" name="Jenis kelamin">
+            <br>
+            <label for="berenang">berenang</label>
+            <input type="checkbox" id="berenang">
+            <label for="badminton">badminton</label>
+            <input type="checkbox" id="badminton">
+            <label for="sepak bola">sepak bola</label>
+            <input type="checkbox" id="sepak bola">
+            <!-- button untuk tombol (submit,reset,button) -->
+            <br>
+            <button type="submit">Kirim</button>
+        </form>
+        <br><br><br><br><br><br>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <form>
+    
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="text" id="email"></td>
+                </tr>
+    
+                    <br>
+    
+                <tr>
+                    <td><label for="pw">Password:</label></td>
+                    <td><input type="password" id="pw"></td>
+                </tr>
+    
+                    <br>
+    
+                <tr>
+                    <td><label for="pria wanita">Gender:</label></td>
+                    <td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Male</label>
+                                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Female</label></td>
+                </tr>
+    
+                    <br>
+    
+                <tr>
+                    <td><label for="kotakelahiran">Born in:</label></td>
+                    <td><select name="" id="kotakelahiran">
+                            <option value="">Jakarta</option>
+                            <option value="">Bandung</option>
+                            <option value="">Yogyakarta</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                    <br>
+    
+                <tr>
+                    <td><label for="coding gaming olahraga masak">Hobby:</label></td>
+                    <td colspan="4"><input type="checkbox" id="coding"><label for="coding">Coding</label>
+                                    <input type="checkbox" id="gaming"><label for="gaming">Gaming</label>
+                                    <input type="checkbox" id="olahraga"><label for="olahraga">Badminton</label></td>
+                </tr>
+    
+                    <br>
+    
+                <tr>
+                    <td><label for="textarea">Your Remarkable Experience:</label></td>
+                    <td><textarea name="" id="textarea" cols="21" rows="3"></textarea></td>
+                </tr>
+                
+                    <br>
+                
+                <tr>
+                    <td colspan="2"><button type="submit">Send!</button></td>
+                </tr>
+    
+                    <br>
+                
+                <tr>
+                    <td colspan="2"><button type="reset">Empty the Form!</button></td>
+                </tr>
+    
+            </form>
+            </table>
+            <br><br><br><br><br><br>
+            <!--ada apa aja sih element form;
+1. imput <input type="" name="">
+mempunyai;
+	text
+	password
+	radio
+	ceckbox
+ada lagi tapi bukan di buat di input yaitu
+	submit
+	reset
+	button
+2. textarea
+	gunanya untuk membuat teks field yang lebih besar
+	misal untuk artikel danlain lain
+3. select
+	pilihan pilihannya menggunakan tag option
+4. button
+mempunyai;
+	submit
+	reset
+	button
+5. label  -->
+
+<form>
+    <table border="1" cellspacing="0">
+            <!-- bagian username -->
+        <tr>
+            <td><label for="username">username : </label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+                <br>
+        <tr>
+            <!-- bagian password -->
+            <td><label for="password">password : </label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+    
+                <br>
+        <tr>
+            <!-- gender -->
+            <td colspan="2">
+                <input type="radio" id="pria" name="gender"> <label for="pria">pria</label>
+            <input type="radio" id="wanita" name="gender"> <label for="wanita">wanita</label>
+            </td>
+        </tr>
+    
+                <br>
+        <tr>
+            <!-- bagian hoby -->
+            <td colspan="2">
+            <input type="checkbox" name="hoby" id="ngaji"> <label for="nagji">ngaji</label>
+            <input type="checkbox" name="hoby" id="ngopi"> <label for="ngopi">ngopi</label>
+            </td>
+        </tr>
+                <br>
+            <!-- bagian kota -->
+        <tr>
+            <td><label>asal kota</label></td>
+            <td><select>
+                <option>lampung</option>
+                <option>jakarta</option>
+                <option>kampung</option>
+            </select></td>
+        </tr>
+                <br>
+            <tr>
+                <td><label>kesan pesan</label></td>
+                <td><textarea></textarea></td>
+        </tr>
+                <br>
+        <tr>
+            <td>
+                <button type="submit">kirim!</button>
+            </td>
+        </tr>
+            
+            
+    </table>	
+    </form>
+    <br><br><br><br><br><br>
+    <!-- elemen-elemen yang ada di dalam form
+	input, textarea, select, button, label -->
+	<!-- value pada atribut type ada 7
+	text, password, radio, checkbox, submit, reset, button -->
+	<!-- untuk tag button value pada atributnya ada 3 yaitu 
+	sumbit reset dan button <button type=""></button> -->
+<form>
+	<table border="1" cellspacing="0" cellpadding="5">
+		<tr>
+			<td align="center"><label for="username">username : </label></td>
+			<td><input type="text" id="username"></td>
+		</tr>
+		<tr>
+		<td align="center"><label for="password">password : </label></td>
+		<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+		 <td align="center" ><label for="jeniskelamin">Jenis Kelamin: </label></td>
+		 <td>
+		<input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+		<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+		</td>
+		</tr>
+		<!-- untuk melakukan pilihan lebih dari 1 gunakan checkbox -->
+		<tr>
+		<td align="center" colspan="2">
+		<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+		<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+		<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+		</td>
+		</tr>
+		<tr>
+			<td align="center">
+			<label for="combobox">Tempat tinggal: </label></td>
+			<td>
+		<select id="combobox">
+			<option>Bandung</option>
+			<option>Jakarta</option>
+			<option>Surabaya</option>
+			<option>Malang</option>
+			<option>Bogor</option>
+		</select>
+			</td>
+		</tr>
+		<tr>
+		<td align="center"><label for="Alamat">Alamat: </label></td>
+		<td><textarea></textarea></td>
+		</tr>
+		<tr>
+		<td align="center" colspan="2">
+		<button type="submit">Kirim</button>
+		</td>
+	</tr>
+	</table>	
+</form>
+<a href="../testing2/Testing2.html" target="_blank">Testing 2</a>
+<br>
+<a href="../Testing.html" target="_blank">Testing</a>
+    </body>
+</html>
